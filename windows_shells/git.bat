@@ -1,4 +1,4 @@
 @echo off
 setlocal
-git config --global http.proxy %1
-git config --global https.proxy %2
+call git config --global http.proxy %1
+call git config --global https.proxy %2
